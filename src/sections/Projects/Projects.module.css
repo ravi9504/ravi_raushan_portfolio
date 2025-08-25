@@ -21,10 +21,19 @@
         transform: scale(1.05);
     }
 
+}
+.projectsContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media (width >=800px){
     .projectsContainer{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        gap: 30px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0 30px;
     }
 }
